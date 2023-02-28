@@ -19,6 +19,13 @@ html{
 }
 
 
+.gallery-image{
+	height : 450px;
+	border-radius: 35px;
+	box-shadow: 3px 4px 32px rgba(0, 0, 0, 0.422);
+
+}
+
 body{
 	margin: 10px;
 	background-image: url("bbg.jpg");
@@ -67,7 +74,7 @@ li{
 
 h1{
 	font-family: "Rozha One";
-	font-size: 85px;
+	font-size: 100px;
 }
 
 h2{
@@ -171,7 +178,6 @@ th{
 }
 
 .sched-title{
-	font-size: 80px;
 	padding-top: 50px;
 }
 
@@ -206,7 +212,6 @@ td:hover{
  	font-size:18px;
  	box-shadow: 0px 0px 7px black;
 }
-
 
 .nav-link:hover{
 	letter-spacing: 25px;
@@ -271,8 +276,9 @@ td:hover{
 }
 
 @media (max-width: 850px){
-
-
+.gallery-image{
+	height:250px;
+}
 
 .download-sched{
 	filter: blur(0px);
@@ -299,11 +305,9 @@ td:hover{
 	}
 
 	.events-img{
-
-
+		margin: 15px;
 		margin-bottom: 0px;
 		margin-top: 3px;
-		nargin-left:-40px;
 		height: 100px;
 		width: 300px;
 		transition: 1s;
